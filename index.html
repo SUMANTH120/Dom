@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Tasks</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table,
+        th,
+        td,
+        tr {
+            border: 3px solid;
+            border-collapse: collapse;
+        }
+
+        th ,td {
+            padding: 15px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">DOM Manipulation Tasks</h1>
+
+        <!-- Buttons inside a table -->
+        <table class="table table-bordered text-center">
+            <tbody>
+                <tr>
+                    <td><button class="btn btn-primary w-100" onclick="task1()">Task 1: Create Paragraph</button></td>
+                    <td><button class="btn btn-primary w-100" onclick="task2()">Task 2: Create Div with Headings</button></td>
+                    <td><button class="btn btn-primary w-100" onclick="task3()">Task 3: Create Unordered List</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-primary w-100" onclick="task4()">Task 4: Create Table</button></td>
+                    <td><button class="btn btn-primary w-100" onclick="task5()">Task 5: Create Div with Image and Caption</button></td>
+                    <td><button class="btn btn-primary w-100" onclick="task6()">Task 6: Create Nested Ordered List</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-primary w-100" onclick="task7()">Task 7: Create Section</button></td>
+                    <td><button class="btn btn-primary w-100" onclick="task8()">Task 8: Create Description List</button></td>
+                    <td><button class="btn btn-primary w-100" onclick="task9()">Task 9: Create Blockquote</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button class="btn btn-primary w-100" onclick="task10()">Task 10: Create Div with Paragraphs</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
